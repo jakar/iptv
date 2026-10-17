@@ -1,9 +1,9 @@
 # Playlists
 
 > Generated automatically — do not edit by hand.
-> Last updated **2026-10-16 18:32 UTC**.
+> Last updated **2026-10-17 00:57 UTC**.
 
-10,281 channels with a working stream, out of 30,765 indexed. 12,644 streams responded on the last scan.
+10,291 channels with a working stream, out of 30,765 indexed. 12,644 streams responded on the last scan.
 
 ## Main playlists
 
@@ -67,7 +67,7 @@ One playlist per country, best stream per channel.
 | 🇵🇰 Pakistan | 91 | 91 | `https://jakar.github.io/iptv/playlists/country/pk.m3u` |
 | 🇨🇿 Czech Republic | 85 | 85 | `https://jakar.github.io/iptv/playlists/country/cz.m3u` |
 | 🇪🇨 Ecuador | 81 | 81 | `https://jakar.github.io/iptv/playlists/country/ec.m3u` |
-| 🇻🇳 Vietnam | 79 | 79 | `https://jakar.github.io/iptv/playlists/country/vn.m3u` |
+| 🇻🇳 Vietnam | 80 | 80 | `https://jakar.github.io/iptv/playlists/country/vn.m3u` |
 | 🇭🇳 Honduras | 78 | 78 | `https://jakar.github.io/iptv/playlists/country/hn.m3u` |
 | 🇹🇭 Thailand | 74 | 74 | `https://jakar.github.io/iptv/playlists/country/th.m3u` |
 | 🇰🇷 South Korea | 73 | 73 | `https://jakar.github.io/iptv/playlists/country/kr.m3u` |
@@ -86,7 +86,7 @@ One playlist per country, best stream per channel.
 | 🇷🇸 Serbia | 47 | 47 | `https://jakar.github.io/iptv/playlists/country/rs.m3u` |
 | 🇰🇿 Kazakhstan | 45 | 45 | `https://jakar.github.io/iptv/playlists/country/kz.m3u` |
 | 🇧🇪 Belgium | 42 | 42 | `https://jakar.github.io/iptv/playlists/country/be.m3u` |
-| 🇦🇺 Australia | 39 | 39 | `https://jakar.github.io/iptv/playlists/country/au.m3u` |
+| 🇦🇺 Australia | 41 | 41 | `https://jakar.github.io/iptv/playlists/country/au.m3u` |
 | 🇸🇻 El Salvador | 39 | 39 | `https://jakar.github.io/iptv/playlists/country/sv.m3u` |
 | 🇰🇪 Kenya | 38 | 38 | `https://jakar.github.io/iptv/playlists/country/ke.m3u` |
 | 🇦🇪 United Arab Emirates | 38 | 38 | `https://jakar.github.io/iptv/playlists/country/ae.m3u` |
@@ -101,11 +101,12 @@ One playlist per country, best stream per channel.
 | 🇵🇷 Puerto Rico | 26 | 26 | `https://jakar.github.io/iptv/playlists/country/pr.m3u` |
 | 🇧🇩 Bangladesh | 26 | 26 | `https://jakar.github.io/iptv/playlists/country/bd.m3u` |
 | 🇰🇭 Cambodia | 26 | 26 | `https://jakar.github.io/iptv/playlists/country/kh.m3u` |
+| 🇶🇦 Qatar | 24 | 24 | `https://jakar.github.io/iptv/playlists/country/qa.m3u` |
 | 🇸🇬 Singapore | 24 | 24 | `https://jakar.github.io/iptv/playlists/country/sg.m3u` |
 | 🇵🇦 Panama | 24 | 24 | `https://jakar.github.io/iptv/playlists/country/pa.m3u` |
-| 🇫🇮 Finland | 24 | 24 | `https://jakar.github.io/iptv/playlists/country/fi.m3u` |
 | 🇿🇦 South Africa | 23 | 23 | `https://jakar.github.io/iptv/playlists/country/za.m3u` |
 | 🇭🇷 Croatia | 23 | 23 | `https://jakar.github.io/iptv/playlists/country/hr.m3u` |
+| 🇫🇮 Finland | 23 | 23 | `https://jakar.github.io/iptv/playlists/country/fi.m3u` |
 | 🇲🇾 Malaysia | 22 | 22 | `https://jakar.github.io/iptv/playlists/country/my.m3u` |
 | 🇲🇩 Moldova | 22 | 22 | `https://jakar.github.io/iptv/playlists/country/md.m3u` |
 | 🇺🇬 Uganda | 21 | 21 | `https://jakar.github.io/iptv/playlists/country/ug.m3u` |
@@ -124,7 +125,6 @@ One playlist per country, best stream per channel.
 | 🇱🇹 Lithuania | 17 | 17 | `https://jakar.github.io/iptv/playlists/country/lt.m3u` |
 | 🇧🇾 Belarus | 17 | 17 | `https://jakar.github.io/iptv/playlists/country/by.m3u` |
 | 🇪🇬 Egypt | 16 | 16 | `https://jakar.github.io/iptv/playlists/country/eg.m3u` |
-| 🇶🇦 Qatar | 16 | 16 | `https://jakar.github.io/iptv/playlists/country/qa.m3u` |
 | 🇨🇩 Democratic Republic of the Congo | 16 | 16 | `https://jakar.github.io/iptv/playlists/country/cd.m3u` |
 | 🇱🇰 Sri Lanka | 16 | 16 | `https://jakar.github.io/iptv/playlists/country/lk.m3u` |
 | 🇧🇦 Bosnia and Herzegovina | 16 | 16 | `https://jakar.github.io/iptv/playlists/country/ba.m3u` |
@@ -231,12 +231,12 @@ One playlist per category — news, sports, movies, music and so on.
 | Category | Channels | Streams | URL |
 | --- | ---: | ---: | --- |
 | General | 2,500 | 2,500 | `https://jakar.github.io/iptv/playlists/category/general.m3u` |
-| News | 973 | 973 | `https://jakar.github.io/iptv/playlists/category/news.m3u` |
+| News | 974 | 974 | `https://jakar.github.io/iptv/playlists/category/news.m3u` |
 | Entertainment | 802 | 802 | `https://jakar.github.io/iptv/playlists/category/entertainment.m3u` |
 | Music | 749 | 749 | `https://jakar.github.io/iptv/playlists/category/music.m3u` |
 | Religious | 743 | 743 | `https://jakar.github.io/iptv/playlists/category/religious.m3u` |
 | Movies | 645 | 645 | `https://jakar.github.io/iptv/playlists/category/movies.m3u` |
-| Sports | 418 | 418 | `https://jakar.github.io/iptv/playlists/category/sports.m3u` |
+| Sports | 425 | 425 | `https://jakar.github.io/iptv/playlists/category/sports.m3u` |
 | Series | 408 | 408 | `https://jakar.github.io/iptv/playlists/category/series.m3u` |
 | Kids | 363 | 363 | `https://jakar.github.io/iptv/playlists/category/kids.m3u` |
 | Documentary | 230 | 230 | `https://jakar.github.io/iptv/playlists/category/documentary.m3u` |
@@ -256,7 +256,7 @@ One playlist per category — news, sports, movies, music and so on.
 | Public | 37 | 37 | `https://jakar.github.io/iptv/playlists/category/public.m3u` |
 | Auto | 28 | 28 | `https://jakar.github.io/iptv/playlists/category/auto.m3u` |
 | Science | 23 | 23 | `https://jakar.github.io/iptv/playlists/category/science.m3u` |
-| Weather | 16 | 16 | `https://jakar.github.io/iptv/playlists/category/weather.m3u` |
+| Weather | 17 | 17 | `https://jakar.github.io/iptv/playlists/category/weather.m3u` |
 | Relax | 9 | 9 | `https://jakar.github.io/iptv/playlists/category/relax.m3u` |
 | Interactive | 2 | 2 | `https://jakar.github.io/iptv/playlists/category/interactive.m3u` |
 
@@ -271,12 +271,12 @@ One playlist per broadcast language.
 
 | Language | Channels | Streams | URL |
 | --- | ---: | ---: | --- |
-| English | 2,551 | 2,551 | `https://jakar.github.io/iptv/playlists/language/eng.m3u` |
+| English | 2,561 | 2,561 | `https://jakar.github.io/iptv/playlists/language/eng.m3u` |
 | Spanish | 2,374 | 2,374 | `https://jakar.github.io/iptv/playlists/language/spa.m3u` |
 | Russian | 607 | 607 | `https://jakar.github.io/iptv/playlists/language/rus.m3u` |
 | Portuguese | 500 | 500 | `https://jakar.github.io/iptv/playlists/language/por.m3u` |
-| French | 465 | 465 | `https://jakar.github.io/iptv/playlists/language/fra.m3u` |
-| Arabic | 344 | 344 | `https://jakar.github.io/iptv/playlists/language/ara.m3u` |
+| French | 468 | 468 | `https://jakar.github.io/iptv/playlists/language/fra.m3u` |
+| Arabic | 352 | 352 | `https://jakar.github.io/iptv/playlists/language/ara.m3u` |
 | Hindi | 327 | 327 | `https://jakar.github.io/iptv/playlists/language/hin.m3u` |
 | Italian | 324 | 324 | `https://jakar.github.io/iptv/playlists/language/ita.m3u` |
 | German | 319 | 319 | `https://jakar.github.io/iptv/playlists/language/deu.m3u` |
@@ -285,15 +285,15 @@ One playlist per broadcast language.
 | Persian | 206 | 206 | `https://jakar.github.io/iptv/playlists/language/fas.m3u` |
 | Polish | 190 | 190 | `https://jakar.github.io/iptv/playlists/language/pol.m3u` |
 | Romanian | 189 | 189 | `https://jakar.github.io/iptv/playlists/language/ron.m3u` |
+| Turkish | 186 | 186 | `https://jakar.github.io/iptv/playlists/language/tur.m3u` |
 | Ukrainian | 182 | 182 | `https://jakar.github.io/iptv/playlists/language/ukr.m3u` |
-| Turkish | 181 | 181 | `https://jakar.github.io/iptv/playlists/language/tur.m3u` |
 | Hungarian | 161 | 161 | `https://jakar.github.io/iptv/playlists/language/hun.m3u` |
 | Danish | 158 | 158 | `https://jakar.github.io/iptv/playlists/language/dan.m3u` |
 | Indonesian | 140 | 140 | `https://jakar.github.io/iptv/playlists/language/ind.m3u` |
 | Swedish | 139 | 139 | `https://jakar.github.io/iptv/playlists/language/swe.m3u` |
 | Tamil | 125 | 125 | `https://jakar.github.io/iptv/playlists/language/tam.m3u` |
 | Norwegian | 119 | 119 | `https://jakar.github.io/iptv/playlists/language/nor.m3u` |
-| Vietnamese | 102 | 102 | `https://jakar.github.io/iptv/playlists/language/vie.m3u` |
+| Vietnamese | 103 | 103 | `https://jakar.github.io/iptv/playlists/language/vie.m3u` |
 | Bengali | 98 | 98 | `https://jakar.github.io/iptv/playlists/language/ben.m3u` |
 | Greek | 94 | 94 | `https://jakar.github.io/iptv/playlists/language/ell.m3u` |
 | Telugu | 87 | 87 | `https://jakar.github.io/iptv/playlists/language/tel.m3u` |
@@ -302,7 +302,7 @@ One playlist per broadcast language.
 | Czech | 84 | 84 | `https://jakar.github.io/iptv/playlists/language/ces.m3u` |
 | Thai | 83 | 83 | `https://jakar.github.io/iptv/playlists/language/tha.m3u` |
 | Urdu | 83 | 83 | `https://jakar.github.io/iptv/playlists/language/urd.m3u` |
-| Finnish | 80 | 80 | `https://jakar.github.io/iptv/playlists/language/fin.m3u` |
+| Finnish | 79 | 79 | `https://jakar.github.io/iptv/playlists/language/fin.m3u` |
 | Malayalam | 73 | 73 | `https://jakar.github.io/iptv/playlists/language/mal.m3u` |
 | Slovak | 64 | 64 | `https://jakar.github.io/iptv/playlists/language/slk.m3u` |
 | Serbian | 59 | 59 | `https://jakar.github.io/iptv/playlists/language/srp.m3u` |
@@ -321,8 +321,8 @@ One playlist per broadcast language.
 | Macedonian | 25 | 25 | `https://jakar.github.io/iptv/playlists/language/mkd.m3u` |
 | Khmer | 25 | 25 | `https://jakar.github.io/iptv/playlists/language/khm.m3u` |
 | Swahili | 24 | 24 | `https://jakar.github.io/iptv/playlists/language/swa.m3u` |
+| Malay | 23 | 23 | `https://jakar.github.io/iptv/playlists/language/msa.m3u` |
 | Pashto | 22 | 22 | `https://jakar.github.io/iptv/playlists/language/pus.m3u` |
-| Malay | 22 | 22 | `https://jakar.github.io/iptv/playlists/language/msa.m3u` |
 | Azerbaijani | 21 | 21 | `https://jakar.github.io/iptv/playlists/language/aze.m3u` |
 | Lithuanian | 21 | 21 | `https://jakar.github.io/iptv/playlists/language/lit.m3u` |
 | Gujarati | 20 | 20 | `https://jakar.github.io/iptv/playlists/language/guj.m3u` |
