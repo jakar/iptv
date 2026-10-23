@@ -1,9 +1,9 @@
 # Playlists
 
 > Generated automatically — do not edit by hand.
-> Last updated **2026-10-23 01:00 UTC**.
+> Last updated **2026-10-23 06:43 UTC**.
 
-10,265 channels with a working stream, out of 30,812 indexed. 12,581 streams responded on the last scan.
+10,264 channels with a working stream, out of 30,848 indexed. 12,623 streams responded on the last scan.
 
 ## Main playlists
 
@@ -66,7 +66,7 @@ One playlist per country, best stream per channel.
 | 🇮🇷 Iran | 119 | 119 | `https://jakar.github.io/iptv/playlists/country/ir.m3u` |
 | 🇵🇰 Pakistan | 92 | 92 | `https://jakar.github.io/iptv/playlists/country/pk.m3u` |
 | 🇨🇿 Czech Republic | 85 | 85 | `https://jakar.github.io/iptv/playlists/country/cz.m3u` |
-| 🇻🇳 Vietnam | 83 | 83 | `https://jakar.github.io/iptv/playlists/country/vn.m3u` |
+| 🇻🇳 Vietnam | 82 | 82 | `https://jakar.github.io/iptv/playlists/country/vn.m3u` |
 | 🇪🇨 Ecuador | 81 | 81 | `https://jakar.github.io/iptv/playlists/country/ec.m3u` |
 | 🇭🇳 Honduras | 79 | 79 | `https://jakar.github.io/iptv/playlists/country/hn.m3u` |
 | 🇬🇷 Greece | 72 | 72 | `https://jakar.github.io/iptv/playlists/country/gr.m3u` |
@@ -232,7 +232,7 @@ One playlist per category — news, sports, movies, music and so on.
 | --- | ---: | ---: | --- |
 | General | 2,501 | 2,501 | `https://jakar.github.io/iptv/playlists/category/general.m3u` |
 | News | 974 | 974 | `https://jakar.github.io/iptv/playlists/category/news.m3u` |
-| Entertainment | 795 | 795 | `https://jakar.github.io/iptv/playlists/category/entertainment.m3u` |
+| Entertainment | 794 | 794 | `https://jakar.github.io/iptv/playlists/category/entertainment.m3u` |
 | Religious | 758 | 758 | `https://jakar.github.io/iptv/playlists/category/religious.m3u` |
 | Music | 757 | 757 | `https://jakar.github.io/iptv/playlists/category/music.m3u` |
 | Movies | 625 | 625 | `https://jakar.github.io/iptv/playlists/category/movies.m3u` |
@@ -267,7 +267,7 @@ One playlist per category — news, sports, movies, music and so on.
 One playlist per broadcast language.
 
 <details>
-<summary><b>217 playlists</b> — click to expand</summary>
+<summary><b>218 playlists</b> — click to expand</summary>
 
 | Language | Channels | Streams | URL |
 | --- | ---: | ---: | --- |
@@ -293,7 +293,7 @@ One playlist per broadcast language.
 | Swedish | 137 | 137 | `https://jakar.github.io/iptv/playlists/language/swe.m3u` |
 | Tamil | 127 | 127 | `https://jakar.github.io/iptv/playlists/language/tam.m3u` |
 | Norwegian | 119 | 119 | `https://jakar.github.io/iptv/playlists/language/nor.m3u` |
-| Vietnamese | 106 | 106 | `https://jakar.github.io/iptv/playlists/language/vie.m3u` |
+| Vietnamese | 105 | 105 | `https://jakar.github.io/iptv/playlists/language/vie.m3u` |
 | Bengali | 98 | 98 | `https://jakar.github.io/iptv/playlists/language/ben.m3u` |
 | Greek | 94 | 94 | `https://jakar.github.io/iptv/playlists/language/ell.m3u` |
 | Telugu | 88 | 88 | `https://jakar.github.io/iptv/playlists/language/tel.m3u` |
@@ -403,6 +403,7 @@ One playlist per broadcast language.
 | Huizhou Chinese | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/czh.m3u` |
 | ger | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/ger.m3u` |
 | dut | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/dut.m3u` |
+| Chinook jargon | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/chn.m3u` |
 | Ahom | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/aho.m3u` |
 | Kapampangan | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/pam.m3u` |
 | Min Nan Chinese | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/nan.m3u` |
