@@ -1,9 +1,9 @@
 # Playlists
 
 > Generated automatically — do not edit by hand.
-> Last updated **2026-10-24 00:56 UTC**.
+> Last updated **2026-10-24 06:39 UTC**.
 
-10,287 channels with a working stream, out of 30,848 indexed. 12,662 streams responded on the last scan.
+10,286 channels with a working stream, out of 30,852 indexed. 12,464 streams responded on the last scan.
 
 ## Main playlists
 
@@ -51,7 +51,7 @@ One playlist per country, best stream per channel.
 | 🇬🇧 United Kingdom | 198 | 198 | `https://jakar.github.io/iptv/playlists/country/uk.m3u` |
 | 🇸🇪 Sweden | 197 | 197 | `https://jakar.github.io/iptv/playlists/country/se.m3u` |
 | 🇺🇦 Ukraine | 182 | 182 | `https://jakar.github.io/iptv/playlists/country/ua.m3u` |
-| 🇦🇷 Argentina | 182 | 182 | `https://jakar.github.io/iptv/playlists/country/ar.m3u` |
+| 🇦🇷 Argentina | 181 | 181 | `https://jakar.github.io/iptv/playlists/country/ar.m3u` |
 | 🇳🇱 Netherlands | 180 | 180 | `https://jakar.github.io/iptv/playlists/country/nl.m3u` |
 | 🇫🇷 France | 174 | 174 | `https://jakar.github.io/iptv/playlists/country/fr.m3u` |
 | 🇲🇽 Mexico | 173 | 173 | `https://jakar.github.io/iptv/playlists/country/mx.m3u` |
@@ -230,7 +230,7 @@ One playlist per category — news, sports, movies, music and so on.
 
 | Category | Channels | Streams | URL |
 | --- | ---: | ---: | --- |
-| General | 2,504 | 2,504 | `https://jakar.github.io/iptv/playlists/category/general.m3u` |
+| General | 2,503 | 2,503 | `https://jakar.github.io/iptv/playlists/category/general.m3u` |
 | News | 984 | 984 | `https://jakar.github.io/iptv/playlists/category/news.m3u` |
 | Entertainment | 796 | 796 | `https://jakar.github.io/iptv/playlists/category/entertainment.m3u` |
 | Religious | 763 | 763 | `https://jakar.github.io/iptv/playlists/category/religious.m3u` |
@@ -272,7 +272,7 @@ One playlist per broadcast language.
 | Language | Channels | Streams | URL |
 | --- | ---: | ---: | --- |
 | English | 2,545 | 2,545 | `https://jakar.github.io/iptv/playlists/language/eng.m3u` |
-| Spanish | 2,378 | 2,378 | `https://jakar.github.io/iptv/playlists/language/spa.m3u` |
+| Spanish | 2,377 | 2,377 | `https://jakar.github.io/iptv/playlists/language/spa.m3u` |
 | Russian | 594 | 594 | `https://jakar.github.io/iptv/playlists/language/rus.m3u` |
 | Portuguese | 500 | 500 | `https://jakar.github.io/iptv/playlists/language/por.m3u` |
 | French | 450 | 450 | `https://jakar.github.io/iptv/playlists/language/fra.m3u` |
