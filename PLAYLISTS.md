@@ -1,9 +1,9 @@
 # Playlists
 
 > Generated automatically — do not edit by hand.
-> Last updated **2026-11-01 00:46 UTC**.
+> Last updated **2026-11-01 06:27 UTC**.
 
-10,333 channels with a working stream, out of 30,902 indexed. 13,012 streams responded on the last scan.
+10,334 channels with a working stream, out of 30,907 indexed. 13,047 streams responded on the last scan.
 
 ## Main playlists
 
@@ -38,7 +38,7 @@ One playlist per country, best stream per channel.
 
 | Country | Channels | Streams | URL |
 | --- | ---: | ---: | --- |
-| 🇺🇸 United States | 1,647 | 1,647 | `https://jakar.github.io/iptv/playlists/country/us.m3u` |
+| 🇺🇸 United States | 1,648 | 1,648 | `https://jakar.github.io/iptv/playlists/country/us.m3u` |
 | 🇮🇳 India | 786 | 786 | `https://jakar.github.io/iptv/playlists/country/in.m3u` |
 | 🇷🇺 Russia | 463 | 463 | `https://jakar.github.io/iptv/playlists/country/ru.m3u` |
 | 🇩🇪 Germany | 378 | 378 | `https://jakar.github.io/iptv/playlists/country/de.m3u` |
@@ -232,7 +232,7 @@ One playlist per category — news, sports, movies, music and so on.
 | --- | ---: | ---: | --- |
 | General | 2,493 | 2,493 | `https://jakar.github.io/iptv/playlists/category/general.m3u` |
 | News | 1,003 | 1,003 | `https://jakar.github.io/iptv/playlists/category/news.m3u` |
-| Entertainment | 800 | 800 | `https://jakar.github.io/iptv/playlists/category/entertainment.m3u` |
+| Entertainment | 801 | 801 | `https://jakar.github.io/iptv/playlists/category/entertainment.m3u` |
 | Religious | 773 | 773 | `https://jakar.github.io/iptv/playlists/category/religious.m3u` |
 | Music | 753 | 753 | `https://jakar.github.io/iptv/playlists/category/music.m3u` |
 | Movies | 624 | 624 | `https://jakar.github.io/iptv/playlists/category/movies.m3u` |
@@ -251,7 +251,7 @@ One playlist per category — news, sports, movies, music and so on.
 | Business | 68 | 68 | `https://jakar.github.io/iptv/playlists/category/business.m3u` |
 | Outdoor | 64 | 64 | `https://jakar.github.io/iptv/playlists/category/outdoor.m3u` |
 | Travel | 58 | 58 | `https://jakar.github.io/iptv/playlists/category/travel.m3u` |
-| Cooking | 56 | 56 | `https://jakar.github.io/iptv/playlists/category/cooking.m3u` |
+| Cooking | 57 | 57 | `https://jakar.github.io/iptv/playlists/category/cooking.m3u` |
 | Family | 50 | 50 | `https://jakar.github.io/iptv/playlists/category/family.m3u` |
 | Public | 36 | 36 | `https://jakar.github.io/iptv/playlists/category/public.m3u` |
 | Auto | 29 | 29 | `https://jakar.github.io/iptv/playlists/category/auto.m3u` |
@@ -271,7 +271,7 @@ One playlist per broadcast language.
 
 | Language | Channels | Streams | URL |
 | --- | ---: | ---: | --- |
-| English | 2,574 | 2,574 | `https://jakar.github.io/iptv/playlists/language/eng.m3u` |
+| English | 2,575 | 2,575 | `https://jakar.github.io/iptv/playlists/language/eng.m3u` |
 | Spanish | 2,354 | 2,354 | `https://jakar.github.io/iptv/playlists/language/spa.m3u` |
 | Russian | 599 | 599 | `https://jakar.github.io/iptv/playlists/language/rus.m3u` |
 | Portuguese | 504 | 504 | `https://jakar.github.io/iptv/playlists/language/por.m3u` |
