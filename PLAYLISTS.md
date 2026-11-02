@@ -1,9 +1,9 @@
 # Playlists
 
 > Generated automatically — do not edit by hand.
-> Last updated **2026-11-02 00:41 UTC**.
+> Last updated **2026-11-02 06:36 UTC**.
 
-10,340 channels with a working stream, out of 30,907 indexed. 13,011 streams responded on the last scan.
+10,340 channels with a working stream, out of 30,914 indexed. 13,006 streams responded on the last scan.
 
 ## Main playlists
 
@@ -296,9 +296,9 @@ One playlist per broadcast language.
 | Vietnamese | 113 | 113 | `https://jakar.github.io/iptv/playlists/language/vie.m3u` |
 | Bengali | 100 | 100 | `https://jakar.github.io/iptv/playlists/language/ben.m3u` |
 | Greek | 94 | 94 | `https://jakar.github.io/iptv/playlists/language/ell.m3u` |
+| Czech | 87 | 87 | `https://jakar.github.io/iptv/playlists/language/ces.m3u` |
 | Urdu | 85 | 85 | `https://jakar.github.io/iptv/playlists/language/urd.m3u` |
 | Bulgarian | 84 | 84 | `https://jakar.github.io/iptv/playlists/language/bul.m3u` |
-| Czech | 84 | 84 | `https://jakar.github.io/iptv/playlists/language/ces.m3u` |
 | Telugu | 82 | 82 | `https://jakar.github.io/iptv/playlists/language/tel.m3u` |
 | Korean | 82 | 82 | `https://jakar.github.io/iptv/playlists/language/kor.m3u` |
 | Finnish | 79 | 79 | `https://jakar.github.io/iptv/playlists/language/fin.m3u` |
@@ -357,9 +357,9 @@ One playlist per broadcast language.
 | Kinyarwanda | 7 | 7 | `https://jakar.github.io/iptv/playlists/language/kin.m3u` |
 | Maithili | 7 | 7 | `https://jakar.github.io/iptv/playlists/language/mai.m3u` |
 | Amharic | 6 | 6 | `https://jakar.github.io/iptv/playlists/language/amh.m3u` |
+| Mandarin Chinese | 6 | 6 | `https://jakar.github.io/iptv/playlists/language/cmn.m3u` |
 | Hausa | 5 | 5 | `https://jakar.github.io/iptv/playlists/language/hau.m3u` |
 | Lingala | 5 | 5 | `https://jakar.github.io/iptv/playlists/language/lin.m3u` |
-| Mandarin Chinese | 5 | 5 | `https://jakar.github.io/iptv/playlists/language/cmn.m3u` |
 | Afrikaans | 5 | 5 | `https://jakar.github.io/iptv/playlists/language/afr.m3u` |
 | Javanese | 5 | 5 | `https://jakar.github.io/iptv/playlists/language/jav.m3u` |
 | jap | 5 | 5 | `https://jakar.github.io/iptv/playlists/language/jap.m3u` |
