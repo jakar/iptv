@@ -1,9 +1,9 @@
 # Playlists
 
 > Generated automatically — do not edit by hand.
-> Last updated **2026-11-04 00:38 UTC**.
+> Last updated **2026-11-04 06:29 UTC**.
 
-10,330 channels with a working stream, out of 30,916 indexed. 12,978 streams responded on the last scan.
+10,330 channels with a working stream, out of 30,916 indexed. 12,948 streams responded on the last scan.
 
 ## Main playlists
 
@@ -274,7 +274,7 @@ One playlist per broadcast language.
 | English | 2,574 | 2,574 | `https://jakar.github.io/iptv/playlists/language/eng.m3u` |
 | Spanish | 2,353 | 2,353 | `https://jakar.github.io/iptv/playlists/language/spa.m3u` |
 | Russian | 594 | 594 | `https://jakar.github.io/iptv/playlists/language/rus.m3u` |
-| Portuguese | 503 | 503 | `https://jakar.github.io/iptv/playlists/language/por.m3u` |
+| Portuguese | 505 | 505 | `https://jakar.github.io/iptv/playlists/language/por.m3u` |
 | French | 456 | 456 | `https://jakar.github.io/iptv/playlists/language/fra.m3u` |
 | Hindi | 347 | 347 | `https://jakar.github.io/iptv/playlists/language/hin.m3u` |
 | Arabic | 347 | 347 | `https://jakar.github.io/iptv/playlists/language/ara.m3u` |
