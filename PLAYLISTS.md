@@ -1,7 +1,7 @@
 # Playlists
 
 > Generated automatically — do not edit by hand.
-> Last updated **2026-11-05 18:23 UTC**.
+> Last updated **2026-11-06 00:39 UTC**.
 
 10,333 channels with a working stream, out of 30,935 indexed. 12,950 streams responded on the last scan.
 
@@ -49,7 +49,7 @@ One playlist per country, best stream per channel.
 | 🇬🇧 United Kingdom | 213 | 213 | `https://jakar.github.io/iptv/playlists/country/uk.m3u` |
 | 🇨🇱 Chile | 197 | 197 | `https://jakar.github.io/iptv/playlists/country/cl.m3u` |
 | 🇸🇪 Sweden | 197 | 197 | `https://jakar.github.io/iptv/playlists/country/se.m3u` |
-| 🇹🇷 Turkiye | 194 | 194 | `https://jakar.github.io/iptv/playlists/country/tr.m3u` |
+| 🇹🇷 Turkiye | 195 | 195 | `https://jakar.github.io/iptv/playlists/country/tr.m3u` |
 | 🇺🇦 Ukraine | 182 | 182 | `https://jakar.github.io/iptv/playlists/country/ua.m3u` |
 | 🇳🇱 Netherlands | 182 | 182 | `https://jakar.github.io/iptv/playlists/country/nl.m3u` |
 | 🇦🇷 Argentina | 182 | 182 | `https://jakar.github.io/iptv/playlists/country/ar.m3u` |
@@ -57,7 +57,7 @@ One playlist per country, best stream per channel.
 | 🇲🇽 Mexico | 176 | 176 | `https://jakar.github.io/iptv/playlists/country/mx.m3u` |
 | 🇵🇪 Peru | 172 | 172 | `https://jakar.github.io/iptv/playlists/country/pe.m3u` |
 | 🇵🇱 Poland | 164 | 164 | `https://jakar.github.io/iptv/playlists/country/pl.m3u` |
-| 🇨🇳 China | 160 | 160 | `https://jakar.github.io/iptv/playlists/country/cn.m3u` |
+| 🇨🇳 China | 159 | 159 | `https://jakar.github.io/iptv/playlists/country/cn.m3u` |
 | 🇷🇴 Romania | 158 | 158 | `https://jakar.github.io/iptv/playlists/country/ro.m3u` |
 | 🇭🇺 Hungary | 146 | 146 | `https://jakar.github.io/iptv/playlists/country/hu.m3u` |
 | 🇨🇦 Canada | 132 | 132 | `https://jakar.github.io/iptv/playlists/country/ca.m3u` |
@@ -233,7 +233,7 @@ One playlist per category — news, sports, movies, music and so on.
 | General | 2,499 | 2,499 | `https://jakar.github.io/iptv/playlists/category/general.m3u` |
 | News | 1,004 | 1,004 | `https://jakar.github.io/iptv/playlists/category/news.m3u` |
 | Entertainment | 799 | 799 | `https://jakar.github.io/iptv/playlists/category/entertainment.m3u` |
-| Religious | 773 | 773 | `https://jakar.github.io/iptv/playlists/category/religious.m3u` |
+| Religious | 774 | 774 | `https://jakar.github.io/iptv/playlists/category/religious.m3u` |
 | Music | 755 | 755 | `https://jakar.github.io/iptv/playlists/category/music.m3u` |
 | Movies | 620 | 620 | `https://jakar.github.io/iptv/playlists/category/movies.m3u` |
 | Sports | 425 | 425 | `https://jakar.github.io/iptv/playlists/category/sports.m3u` |
@@ -276,15 +276,15 @@ One playlist per broadcast language.
 | Russian | 594 | 594 | `https://jakar.github.io/iptv/playlists/language/rus.m3u` |
 | Portuguese | 505 | 505 | `https://jakar.github.io/iptv/playlists/language/por.m3u` |
 | French | 456 | 456 | `https://jakar.github.io/iptv/playlists/language/fra.m3u` |
+| Arabic | 348 | 348 | `https://jakar.github.io/iptv/playlists/language/ara.m3u` |
 | Hindi | 347 | 347 | `https://jakar.github.io/iptv/playlists/language/hin.m3u` |
-| Arabic | 347 | 347 | `https://jakar.github.io/iptv/playlists/language/ara.m3u` |
 | Italian | 336 | 336 | `https://jakar.github.io/iptv/playlists/language/ita.m3u` |
 | German | 317 | 317 | `https://jakar.github.io/iptv/playlists/language/deu.m3u` |
 | Chinese | 226 | 226 | `https://jakar.github.io/iptv/playlists/language/zho.m3u` |
 | Dutch | 209 | 209 | `https://jakar.github.io/iptv/playlists/language/nld.m3u` |
 | Persian | 206 | 206 | `https://jakar.github.io/iptv/playlists/language/fas.m3u` |
 | Romanian | 190 | 190 | `https://jakar.github.io/iptv/playlists/language/ron.m3u` |
-| Ukrainian | 182 | 182 | `https://jakar.github.io/iptv/playlists/language/ukr.m3u` |
+| Ukrainian | 181 | 181 | `https://jakar.github.io/iptv/playlists/language/ukr.m3u` |
 | Turkish | 175 | 175 | `https://jakar.github.io/iptv/playlists/language/tur.m3u` |
 | Hungarian | 164 | 164 | `https://jakar.github.io/iptv/playlists/language/hun.m3u` |
 | Polish | 164 | 164 | `https://jakar.github.io/iptv/playlists/language/pol.m3u` |
@@ -394,7 +394,6 @@ One playlist per broadcast language.
 | Chiga | 2 | 2 | `https://jakar.github.io/iptv/playlists/language/cgg.m3u` |
 | Maori | 2 | 2 | `https://jakar.github.io/iptv/playlists/language/mri.m3u` |
 | Latin | 2 | 2 | `https://jakar.github.io/iptv/playlists/language/lat.m3u` |
-| Uighur | 2 | 2 | `https://jakar.github.io/iptv/playlists/language/uig.m3u` |
 | Egyptian Arabic | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/arz.m3u` |
 | fre | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/fre.m3u` |
 | Abkhazian | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/abk.m3u` |
@@ -487,6 +486,7 @@ One playlist per broadcast language.
 | Kumam | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/kdi.m3u` |
 | Dholuo | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/luo.m3u` |
 | Fataleka | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/far.m3u` |
+| Uighur | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/uig.m3u` |
 | Tibetan | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/bod.m3u` |
 | Herero | 1 | 1 | `https://jakar.github.io/iptv/playlists/language/her.m3u` |
 
