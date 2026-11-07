@@ -1,9 +1,9 @@
 # Playlists
 
 > Generated automatically — do not edit by hand.
-> Last updated **2026-11-07 00:38 UTC**.
+> Last updated **2026-11-07 06:26 UTC**.
 
-10,358 channels with a working stream, out of 30,938 indexed. 13,070 streams responded on the last scan.
+10,358 channels with a working stream, out of 30,942 indexed. 13,193 streams responded on the last scan.
 
 ## Main playlists
 
@@ -271,7 +271,7 @@ One playlist per broadcast language.
 
 | Language | Channels | Streams | URL |
 | --- | ---: | ---: | --- |
-| English | 2,578 | 2,578 | `https://jakar.github.io/iptv/playlists/language/eng.m3u` |
+| English | 2,579 | 2,579 | `https://jakar.github.io/iptv/playlists/language/eng.m3u` |
 | Spanish | 2,360 | 2,360 | `https://jakar.github.io/iptv/playlists/language/spa.m3u` |
 | Russian | 598 | 598 | `https://jakar.github.io/iptv/playlists/language/rus.m3u` |
 | Portuguese | 505 | 505 | `https://jakar.github.io/iptv/playlists/language/por.m3u` |
@@ -286,7 +286,7 @@ One playlist per broadcast language.
 | Romanian | 194 | 194 | `https://jakar.github.io/iptv/playlists/language/ron.m3u` |
 | Ukrainian | 180 | 180 | `https://jakar.github.io/iptv/playlists/language/ukr.m3u` |
 | Turkish | 175 | 175 | `https://jakar.github.io/iptv/playlists/language/tur.m3u` |
-| Hungarian | 164 | 164 | `https://jakar.github.io/iptv/playlists/language/hun.m3u` |
+| Hungarian | 165 | 165 | `https://jakar.github.io/iptv/playlists/language/hun.m3u` |
 | Danish | 158 | 158 | `https://jakar.github.io/iptv/playlists/language/dan.m3u` |
 | Polish | 152 | 152 | `https://jakar.github.io/iptv/playlists/language/pol.m3u` |
 | Swedish | 138 | 138 | `https://jakar.github.io/iptv/playlists/language/swe.m3u` |
@@ -296,8 +296,8 @@ One playlist per broadcast language.
 | Vietnamese | 113 | 113 | `https://jakar.github.io/iptv/playlists/language/vie.m3u` |
 | Bengali | 102 | 102 | `https://jakar.github.io/iptv/playlists/language/ben.m3u` |
 | Greek | 92 | 92 | `https://jakar.github.io/iptv/playlists/language/ell.m3u` |
-| Bulgarian | 87 | 87 | `https://jakar.github.io/iptv/playlists/language/bul.m3u` |
-| Czech | 87 | 87 | `https://jakar.github.io/iptv/playlists/language/ces.m3u` |
+| Bulgarian | 89 | 89 | `https://jakar.github.io/iptv/playlists/language/bul.m3u` |
+| Czech | 88 | 88 | `https://jakar.github.io/iptv/playlists/language/ces.m3u` |
 | Urdu | 85 | 85 | `https://jakar.github.io/iptv/playlists/language/urd.m3u` |
 | Telugu | 84 | 84 | `https://jakar.github.io/iptv/playlists/language/tel.m3u` |
 | Korean | 82 | 82 | `https://jakar.github.io/iptv/playlists/language/kor.m3u` |
