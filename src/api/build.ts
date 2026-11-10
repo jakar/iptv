@@ -5,6 +5,7 @@
  * can be served by GitHub Pages / any CDN with no server and no rate limits.
  */
 
+import { readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { loadConfig, PATHS, publicUrl, type Settings } from '../core/config.js';
 import {
@@ -175,7 +176,15 @@ export async function buildApi(options: { clean?: boolean } = {}): Promise<ApiBu
   const healthDb = await loadHealthDb();
   attachHealth(dataset.channels, healthDb);
 
-  if (options.clean) await remove(PATHS.public);
+  if (options.clean && (await exists(PATHS.public))) {
+    // Keep public/epg: the `epg` step writes the merged guide there before
+    // `api` runs, and wiping all of public/ would delete the generated guide.
+    for (const entry of await readdir(PATHS.public)) {
+      const target = path.join(PATHS.public, entry);
+      if (target === PATHS.epg) continue;
+      await remove(target);
+    }
+  }
   await ensureDir(PATHS.api);
 
   let files = 0;
