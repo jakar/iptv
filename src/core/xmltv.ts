@@ -10,6 +10,14 @@ const parser = new XMLParser({
   parseAttributeValue: false,
   parseTagValue: false,
   trimValues: true,
+  // fast-xml-parser 4.5.5+ caps total entity expansions (including standard
+  // &apos;/&quot;/&lt;/&gt;) at 1,000 when `processEntities` is a boolean,
+  // which aborts on multi-megabyte XMLTV guides.
+  processEntities: {
+    enabled: true,
+    maxTotalExpansions: Infinity,
+    maxExpandedLength: Infinity,
+  },
   isArray: (name) => ['channel', 'programme', 'display-name', 'category', 'icon'].includes(name),
 });
 

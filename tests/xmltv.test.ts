@@ -90,6 +90,20 @@ describe('parseXmltv', () => {
     assert.doesNotThrow(() => parseXmltv('<tv><channel/></tv>'));
     assert.deepEqual(parseXmltv('<tv></tv>').programmes, []);
   });
+
+  it('parses guides with more than 1,000 XML entity expansions', () => {
+    const programmes = Array.from(
+      { length: 600 },
+      (_, i) =>
+        `<programme start="20240115120000 +0000" channel="BBCNews.uk">` +
+        `<title>Show &amp; Tell &quot;#${i}&quot; &apos;Live&apos;</title>` +
+        `</programme>`,
+    ).join('\n');
+    const xml = `<?xml version="1.0" encoding="UTF-8"?><tv><channel id="BBCNews.uk"><display-name>BBC</display-name></channel>${programmes}</tv>`;
+    const result = parseXmltv(xml, 'entity-heavy');
+    assert.equal(result.programmes.length, 600);
+    assert.equal(result.programmes[0]?.title, 'Show & Tell "#0" \'Live\'');
+  });
 });
 
 describe('writeXmltv', () => {
