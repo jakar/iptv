@@ -38,25 +38,30 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Mint bot token
         id: bot
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v3
         continue-on-error: true
         with:
           app-id: ${{ vars.BOT_APP_ID }}
           private-key: ${{ secrets.BOT_PRIVATE_KEY }}
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
 
       - run: npm ci
 
-      - name: Verify ffprobe
-        run: ffprobe -version | head -1
+      - name: Install and verify ffprobe
+        run: |
+          if ! command -v ffprobe >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y --no-install-recommends ffmpeg
+          fi
+          ffprobe -version
 
       - name: Restore rejection memory
         continue-on-error: true
@@ -71,7 +76,7 @@ jobs:
       - name: Discover
         run: |
           ARGS="--max-probes ${{ inputs.max_probes || '800' }}"
-          if [ "${{ inputs.apply == false }}" != "true" ]; then ARGS="$ARGS --apply"; fi
+          if [ "${{ inputs.apply }}" != "false" ]; then ARGS="$ARGS --apply"; fi
           npm run cli -- discover $ARGS
 
       - name: Summarise

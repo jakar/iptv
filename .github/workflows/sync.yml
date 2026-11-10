@@ -46,11 +46,11 @@ jobs:
       channels: ${{ steps.summary.outputs.channels }}
       streams: ${{ steps.summary.outputs.streams }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 1
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -60,7 +60,7 @@ jobs:
       # Health history is the memory that makes scores meaningful, so it is
       # restored from the cache and from the state branch.
       - name: Restore state
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: .data
           key: nexus-state-${{ github.run_id }}
@@ -93,7 +93,7 @@ jobs:
         env:
           NEXUS_BASE_URL: ${{ format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
           NEXUS_REPOSITORY: ${{ github.server_url }}/${{ github.repository }}
-        run: npm run cli -- api
+        run: npm run cli -- api --clean
 
       - name: Summarise
         id: summary
@@ -128,7 +128,7 @@ jobs:
           git pull --rebase --quiet origin main || true
           git push origin HEAD:main
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: public
 
@@ -136,9 +136,12 @@ jobs:
     name: Deploy to Pages
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
+        with:
+          timeout: 1500000

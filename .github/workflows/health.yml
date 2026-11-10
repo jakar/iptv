@@ -34,19 +34,24 @@ jobs:
       matrix:
         shard: [0, 1, 2, 3, 4, 5]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
 
       - run: npm ci
 
-      # ffmpeg ships with the ubuntu-latest image, but pin the check so a
-      # future image change fails loudly instead of silently degrading.
-      - name: Verify ffprobe
-        run: ffprobe -version | head -1
+      # Ubuntu 26.04 runner images no longer pre-install ffmpeg, and piping
+      # `ffprobe -version | head -1` without pipefail masked the exit code.
+      - name: Install and verify ffprobe
+        run: |
+          if ! command -v ffprobe >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y --no-install-recommends ffmpeg
+          fi
+          ffprobe -version
 
       - name: Restore health database
         continue-on-error: true
@@ -65,7 +70,7 @@ jobs:
           if [ "$LIMIT" != "0" ]; then ARGS="$ARGS --limit $LIMIT"; fi
           npm run cli -- health $ARGS
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: health-shard-${{ matrix.shard }}
           path: .data/health.json
@@ -77,16 +82,16 @@ jobs:
     if: always()
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
 
       - run: npm ci
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           path: shards
           pattern: health-shard-*
