@@ -57,8 +57,10 @@ api:
   pretty: false
   shards: true
   # playable | all | false — per-channel JSON documents.
-  # `all` emits ~40k files (~300 MB); `playable` emits only channels with streams.
-  channel_details: playable
+  # `all` emits ~40k files (~300 MB); `playable` emits ~10.4k files which
+  # stalls GitHub Pages `syncing_files`. `false` skips per-channel files and
+  # the web player reads from `by-country/*.json` shards instead.
+  channel_details: false
   include_offline: true
 
 playlists:

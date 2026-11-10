@@ -441,8 +441,19 @@ async function openChannel(id) {
   let channel = state.detailCache.get(id);
   if (!channel) {
     try {
-      channel = await getJson(`${API}/channels/${encodeURIComponent(id)}.json`);
-      state.detailCache.set(id, channel);
+      const row = state.channels.find((entry) => entry[F.ID] === id);
+      const country = (row?.[F.COUNTRY] || 'int').toLowerCase();
+      const shard = await getJson(`${API}/by-country/${encodeURIComponent(country)}.json`);
+      if (Array.isArray(shard)) {
+        for (const entry of shard) {
+          if (entry?.id) state.detailCache.set(entry.id, entry);
+        }
+      }
+      channel = state.detailCache.get(id);
+      if (!channel) {
+        channel = await getJson(`${API}/channels/${encodeURIComponent(id)}.json`);
+        state.detailCache.set(id, channel);
+      }
     } catch {
       $('#player-title').textContent = 'Channel unavailable';
       $('#player-sub').textContent = 'The detail document could not be loaded.';
@@ -615,7 +626,7 @@ function renderMeta(channel) {
     ['Codec', stream?.health?.media?.video_codec ?? '—'],
     ['Bitrate', stream?.health?.media?.bitrate ? `${Math.round(stream.health.media.bitrate / 1000)} kbps` : '—'],
     ['Last checked', stream?.health?.checked_at ? new Date(stream.health.checked_at).toLocaleString() : '—'],
-    ['API', `${API}/channels/${channel.id}.json`],
+    ['API', `${API}/by-country/${(channel.country || 'int').toLowerCase()}.json`],
   ];
   for (const [term, description] of rows) {
     list.append(el('dt', null, term), el('dd', null, String(description)));

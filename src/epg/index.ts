@@ -242,9 +242,10 @@ export async function buildEpg(): Promise<EpgBuildResult> {
     generatorName: settings.project.name,
     generatorUrl: settings.project.repository ?? 'https://github.com',
   });
-  await writeText(path.join(PATHS.epg, 'guide.xml'), fullXml);
   if (settings.epg.gzip) {
     await writeGzip(path.join(PATHS.epg, 'guide.xml.gz'), fullXml);
+  } else {
+    await writeText(path.join(PATHS.epg, 'guide.xml'), fullXml);
   }
 
   // Per-country shards keep player downloads small.

@@ -136,18 +136,9 @@ jobs:
     name: Deploy to Pages
     needs: build
     runs-on: ubuntu-latest
-    timeout-minutes: 25
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      # actions/deploy-pages hard-caps `timeout` at 600,000 ms (10 minutes)
-      # and cancels the deployment when `syncing_files` stalls. Retrying once
-      # starts a fresh deployment from the same artifact without rebuilding.
       - id: deployment
-        uses: actions/deploy-pages@v5
-        continue-on-error: true
-
-      - id: deployment_retry
-        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v5

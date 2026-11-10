@@ -358,7 +358,7 @@ export async function buildApi(options: { clean?: boolean } = {}): Promise<ApiBu
       return buckets;
     };
 
-    await shardWrite('country', group((channel) => [channel.country ?? '']));
+    await shardWrite('country', group((channel) => [channel.country || 'int']));
     await shardWrite('category', group((channel) => channel.categories));
     await shardWrite('language', group((channel) => channel.languages));
   }
