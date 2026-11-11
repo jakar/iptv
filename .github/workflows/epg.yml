@@ -128,7 +128,7 @@ jobs:
   publish:
     name: Publish to state branch
     needs: grab
-    if: always()
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7

@@ -43,15 +43,7 @@ jobs:
 
       - run: npm ci
 
-      # Ubuntu 26.04 runner images no longer pre-install ffmpeg, and piping
-      # `ffprobe -version | head -1` without pipefail masked the exit code.
-      - name: Install and verify ffprobe
-        run: |
-          if ! command -v ffprobe >/dev/null 2>&1; then
-            sudo apt-get update
-            sudo apt-get install -y --no-install-recommends ffmpeg
-          fi
-          ffprobe -version
+      - uses: ./.github/actions/setup-ffprobe
 
       - name: Restore health database
         continue-on-error: true
@@ -79,7 +71,7 @@ jobs:
   merge:
     name: Merge shards
     needs: scan
-    if: always()
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -96,10 +88,26 @@ jobs:
           path: shards
           pattern: health-shard-*
 
+      - name: Check downloaded shards
+        id: shards
+        run: |
+          COUNT=$(find shards -name '*.json' 2>/dev/null | wc -l | tr -d ' ')
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "Downloaded $COUNT shard file(s)"
+          if [ "$COUNT" = "0" ]; then
+            if [ "${{ needs.scan.result }}" = "success" ]; then
+              echo "::error::Scan jobs succeeded but produced no shard artifacts"
+              exit 1
+            fi
+            echo "⚠️ No health shards were produced because every scan job failed." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
       - name: Merge health databases
+        if: steps.shards.outputs.count != '0'
         run: node scripts/merge-health.mjs shards .data/health.json
 
       - name: Push to state branch
+        if: steps.shards.outputs.count != '0'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -109,6 +117,7 @@ jobs:
           ./scripts/publish-state.sh "health: $(date -u +%FT%TZ)" .data/health.json:health.json
 
       - name: Report
+        if: steps.shards.outputs.count != '0'
         run: |
           node -e "
             const records = require('./.data/health.json');

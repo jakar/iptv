@@ -55,13 +55,7 @@ jobs:
 
       - run: npm ci
 
-      - name: Install and verify ffprobe
-        run: |
-          if ! command -v ffprobe >/dev/null 2>&1; then
-            sudo apt-get update
-            sudo apt-get install -y --no-install-recommends ffmpeg
-          fi
-          ffprobe -version
+      - uses: ./.github/actions/setup-ffprobe
 
       - name: Restore rejection memory
         continue-on-error: true
@@ -98,7 +92,8 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.bot.outputs.token || secrets.GITHUB_TOKEN }}
         run: |
-          TOTAL=$(grep -c '^#EXTINF' config/discovered.m3u || echo 0)
+          TOTAL=$(grep -c '^#EXTINF' config/discovered.m3u || true)
+          TOTAL=${TOTAL:-0}
           git config user.name  "${{ steps.bot.outputs.token && 'iptv-nexus-bot[bot]' || 'github-actions[bot]' }}"
           git config user.email "${{ steps.bot.outputs.token && 'iptv-nexus-bot[bot]@users.noreply.github.com' || '41898282+github-actions[bot]@users.noreply.github.com' }}"
           git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
@@ -112,7 +107,7 @@ jobs:
           git push origin HEAD:main
 
       - name: Persist rejection memory
-        if: always()
+        if: ${{ !cancelled() }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}

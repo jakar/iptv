@@ -1,0 +1,64 @@
+name: Setup ffprobe
+description: Install and cache a static ffprobe binary with a bounded apt fallback
+
+runs:
+  using: composite
+  steps:
+    - name: Cache ffprobe binary
+      uses: actions/cache@v6
+      with:
+        path: ~/.cache/iptv-ffprobe/bin
+        key: ffprobe-${{ runner.os }}-${{ runner.arch }}-v1
+
+    # Download a static build from GitHub Releases rather than running apt-get
+    # on every shard: Ubuntu 26.04 runners no longer pre-install ffmpeg, and all
+    # three mirrors in /etc/apt/apt-mirrors.txt sit under ubuntu.com — so an
+    # upstream Ubuntu DNS or mirror stall (e.g. actions/runner-images#15296)
+    # otherwise hangs apt-get across 81 packages for ~58 minutes per job.
+    - name: Install and verify ffprobe
+      shell: bash
+      run: |
+        set -euo pipefail
+        BIN_DIR="$HOME/.cache/iptv-ffprobe/bin"
+        mkdir -p "$BIN_DIR"
+        echo "$BIN_DIR" >> "$GITHUB_PATH"
+        export PATH="$BIN_DIR:$PATH"
+
+        if [ -x "$BIN_DIR/ffprobe" ] && "$BIN_DIR/ffprobe" -version >/dev/null 2>&1; then
+          ffprobe -version
+          exit 0
+        fi
+
+        if command -v ffprobe >/dev/null 2>&1 && ffprobe -version >/dev/null 2>&1; then
+          ffprobe -version
+          exit 0
+        fi
+
+        case "$(uname -m)" in
+          x86_64)  TARGET="linux64" ;;
+          aarch64) TARGET="linuxarm64" ;;
+          *)       TARGET="" ;;
+        esac
+
+        if [ -n "$TARGET" ]; then
+          URL="https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-${TARGET}-lgpl.tar.xz"
+          TMP_DIR="$(mktemp -d)"
+          trap 'rm -rf "$TMP_DIR"' EXIT
+          if curl --retry 3 --retry-all-errors --connect-timeout 15 --max-time 90 -fsSL "$URL" -o "$TMP_DIR/ffmpeg.tar.xz" \
+            && tar -xJf "$TMP_DIR/ffmpeg.tar.xz" -C "$BIN_DIR" --strip-components=2 --wildcards '*/bin/ffprobe' \
+            && chmod +x "$BIN_DIR/ffprobe" \
+            && "$BIN_DIR/ffprobe" -version >/dev/null 2>&1; then
+            :
+          else
+            rm -f "$BIN_DIR/ffprobe"
+          fi
+        fi
+
+        if ! command -v ffprobe >/dev/null 2>&1; then
+          echo "::warning::Static ffprobe download failed; falling back to bounded apt-get install"
+          APT_OPTS=(-o Acquire::Retries=1 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15)
+          timeout 120 sudo apt-get update "${APT_OPTS[@]}"
+          timeout 180 sudo apt-get install -y --no-install-recommends "${APT_OPTS[@]}" ffmpeg
+        fi
+
+        ffprobe -version
