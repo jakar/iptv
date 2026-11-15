@@ -51,8 +51,14 @@ http://138.121.15.230:9002/DISNEY-CHANNEL/index.m3u8
 http://89.44.231.73:7000/eurosport
 #EXTINF:-1 tvg-id="Eurosport1.fr" tvg-name="Eurosport 1 Portugal" group-title="Portugal" nexus-source="iptv-org-index" nexus-confidence="0.98",Eurosport 1 Portugal
 http://185.228.163.146:8000/play/a03z/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr" tvg-name="Eurosport 1 Italy" group-title="Italy" nexus-source="iptv-org-index" nexus-confidence="0.98",Eurosport 1 Italy
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1_it/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr" tvg-name="Eurosport 2 Germany" group-title="Germany" nexus-source="iptv-org-index" nexus-confidence="0.98",Eurosport 2 Germany
 http://46.244.99.71:8181/stream/74/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport2.fr" tvg-name="Eurosport 2 Romania" group-title="Romania" nexus-source="iptv-org-index" nexus-confidence="0.98",Eurosport 2 Romania
+http://89.44.231.73:7000/eurosport2
+#EXTINF:-1 tvg-id="Eurosport2.fr" tvg-name="Eurosport 2 UK" group-title="United Kingdom" nexus-source="iptv-org-index" nexus-confidence="0.98",Eurosport 2 UK
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_en/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk" tvg-name="FIFA+ United States" group-title="Canada" nexus-source="iptv-org-index" nexus-confidence="0.98",FIFA+ United States
 https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk" tvg-name="FIFA+ French" group-title="Belgium" nexus-source="iptv-org-index" nexus-confidence="0.98",FIFA+ French
