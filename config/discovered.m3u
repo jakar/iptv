@@ -119,6 +119,8 @@ http://31.148.5.241/kanal_4/index.m3u8
 https://ontv4u-orka.b-cdn.net/ONTV4U-ORKA/index.m3u8
 #EXTINF:-1 tvg-id="PBS.us" tvg-name="PBS WJXT" group-title="United States" nexus-source="iptv-org-index" nexus-confidence="0.98",PBS WJXT
 https://dai.google.com/linear/hls/event/RDmbn03GRCOLNG1eetEKhg/master.m3u8
+#EXTINF:-1 tvg-id="Rai3.it" tvg-name="Rai 3 Trentino-Alto Adige Trento" group-title="Italy" nexus-source="iptv-org-index" nexus-confidence="0.98",Rai 3 Trentino-Alto Adige Trento
+https://tgrtrento-live.akamaized.net/hls/live/2025575/tgrtrento/tgrtrento/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-name="Red Bull TV US" group-title="Canada" nexus-source="iptv-org-index" nexus-confidence="0.98",Red Bull TV US
 https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-644-WORBUSENFAST-LG_US/644/lgtv/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-name="Red Bull TV UK" group-title="United Kingdom" nexus-source="iptv-org-index" nexus-confidence="0.98",Red Bull TV UK
