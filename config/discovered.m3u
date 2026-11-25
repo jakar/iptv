@@ -21,6 +21,8 @@ https://amg01438-amg01438c1-vizio-us-10865.playouts.now.amagi.tv/playlist.m3u8
 https://amg01438-amg01438c22-vizio-us-10908.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us" tvg-name="ABC WTXL-TV" group-title="United States" nexus-source="iptv-org-index" nexus-confidence="0.98",ABC WTXL-TV
 https://amg01438-amg01438c38-vizio-us-10917.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ABC.us" tvg-name="ABC WFTV" group-title="United States" nexus-source="iptv-org-index" nexus-confidence="0.98",ABC WFTV
+https://amg00327-coxmediagroup-wftvbreakingnews-vizious-bfgi2.amagi.tv/ts-eu-w1-n2/playlist/amg00327-coxmediagroup-wftvbreakingnews-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa" tvg-name="Al Jazeera English HD" group-title="International" nexus-source="iptv-org-index" nexus-confidence="0.98",Al Jazeera English HD
 http://stream.mcquack.net/131/index.m3u8
 #EXTINF:-1 tvg-id="AngelTV.in" tvg-name="Angel TV Portuguese" group-title="Brazil" nexus-source="iptv-org-index" nexus-confidence="0.98",Angel TV Portuguese
