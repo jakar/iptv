@@ -1,9 +1,9 @@
 # Playlists
 
 > Generated automatically — do not edit by hand.
-> Last updated **2026-11-26 00:40 UTC**.
+> Last updated **2026-11-26 06:31 UTC**.
 
-10,460 channels with a working stream, out of 31,143 indexed. 13,448 streams responded on the last scan.
+10,460 channels with a working stream, out of 31,147 indexed. 13,415 streams responded on the last scan.
 
 ## Main playlists
 
@@ -231,7 +231,7 @@ One playlist per category — news, sports, movies, music and so on.
 
 | Category | Channels | Streams | URL |
 | --- | ---: | ---: | --- |
-| General | 2,550 | 2,550 | `https://jakar.github.io/iptv/playlists/category/general.m3u` |
+| General | 2,551 | 2,551 | `https://jakar.github.io/iptv/playlists/category/general.m3u` |
 | News | 1,024 | 1,024 | `https://jakar.github.io/iptv/playlists/category/news.m3u` |
 | Entertainment | 824 | 824 | `https://jakar.github.io/iptv/playlists/category/entertainment.m3u` |
 | Religious | 784 | 784 | `https://jakar.github.io/iptv/playlists/category/religious.m3u` |
@@ -281,8 +281,8 @@ One playlist per broadcast language.
 | Italian | 349 | 349 | `https://jakar.github.io/iptv/playlists/language/ita.m3u` |
 | Hindi | 332 | 332 | `https://jakar.github.io/iptv/playlists/language/hin.m3u` |
 | German | 323 | 323 | `https://jakar.github.io/iptv/playlists/language/deu.m3u` |
+| Romanian | 229 | 229 | `https://jakar.github.io/iptv/playlists/language/ron.m3u` |
 | Chinese | 227 | 227 | `https://jakar.github.io/iptv/playlists/language/zho.m3u` |
-| Romanian | 226 | 226 | `https://jakar.github.io/iptv/playlists/language/ron.m3u` |
 | Dutch | 205 | 205 | `https://jakar.github.io/iptv/playlists/language/nld.m3u` |
 | Persian | 205 | 205 | `https://jakar.github.io/iptv/playlists/language/fas.m3u` |
 | Turkish | 185 | 185 | `https://jakar.github.io/iptv/playlists/language/tur.m3u` |
